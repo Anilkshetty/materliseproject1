@@ -1,0 +1,48 @@
+*
+{
+background: ;
+}
+header
+
+{
+    background-image:url("man.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height:500px;
+    max-width:100%;
+}
+.section
+{
+    padding-top:4vw;
+    padding-bottom:4vw;
+}
+.sidenav
+{
+    height:500px;
+}
+.tabs .tab a:hover, .tabs .tab a.active 
+{
+    background: orange;
+    color:black;
+}
+.tabs .indicator 
+ {
+     background: black;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active 
+{
+    background:hotpink;
+}
+@media screen and (max-width:670px)
+{
+    header
+    {
+        min-height:500px;
+    }
+
+}
+.fixed-action-btn{
+    right: auto; 
+    margin-left: 5%;  //optional
+}
